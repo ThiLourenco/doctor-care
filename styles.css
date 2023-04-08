@@ -34,7 +34,7 @@ body {
 }
 
 body {
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 1.6rem;
 
   text-align: center;
@@ -139,12 +139,12 @@ section .button:hover {
   fill: var(--brand-light);
 }
 
-#navigation .logo path[fill*='#00856F'],
+#navigation .logo path[fill*="#00856F"],
 #backToTopButton circle {
   fill: var(--primary-color);
 }
 
-button.open-menu path[stroke*='00856F'],
+button.open-menu path[stroke*="00856F"],
 #contact li path {
   stroke: var(--primary-color);
 }
@@ -154,7 +154,7 @@ body.menu-expanded #navigation .logo path,
   fill: white;
 }
 
-#navigation.scroll button.open-menu path[stroke*='00856F'] {
+#navigation.scroll button.open-menu path[stroke*="00856F"] {
   stroke: white;
 }
 
@@ -295,7 +295,7 @@ body.menu-expanded button path {
 }
 
 #home::before {
-  content: '';
+  content: "";
   width: 100%;
   height: calc(76% + var(--nav-height));
   background-color: var(--brand-light);
@@ -588,7 +588,7 @@ footer .social-links {
   }
 
   nav#navigation .menu li a::after {
-    content: '';
+    content: "";
     width: 0%;
     height: 2px;
     background-color: var(--primary-color);
@@ -636,8 +636,8 @@ footer .social-links {
   #home .wrapper {
     grid-template-columns: 60.5rem 1fr;
     grid-template-areas:
-      'A B'
-      'C C';
+      "A B"
+      "C C";
   }
 
   #home .col-a {
@@ -697,7 +697,7 @@ footer .social-links {
   /*--------About-------*/
   #about .wrapper {
     grid-template-columns: 48rem 1fr;
-    grid-template-areas: 'B A';
+    grid-template-areas: "B A";
     gap: 6.7rem;
   }
 
@@ -713,7 +713,7 @@ footer .social-links {
 
   #contact .wrapper {
     grid-template-columns: 1fr 57.5rem;
-    grid-template-areas: 'A B';
+    grid-template-areas: "A B";
   }
 
   #contact h2 {
@@ -727,7 +727,7 @@ footer .social-links {
 
   footer .wrapper {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'A B';
+    grid-template-areas: "A B";
   }
 
   footer .col-a {
